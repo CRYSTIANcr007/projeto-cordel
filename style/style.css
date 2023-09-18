@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --fontTitulo:'Passion One', cursive;
+    --fontTexto:'Sriracha', cursive;
+}
+header{
+    background-color: black;
+    color: #ffffff;
+    
+}
+header >h1{
+    font-size: 10vw;
+    font-family: var(--fontTitulo);
+    padding-top: 80px;
+    text-align: center;
+}
+header p{
+    padding-bottom: 80px;
+    font-family: sans-serif;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main p{
+    font-family: var(--fontTexto);
+    font-size: 3vw;
+    padding: 20px;
+}
+
+section{
+    
+}
+
+.normal{
+    padding: 150px 20px;
+    
+}
+
+.joaninha{
+    background: white url(imagens/background001.jpg) no-repeat top right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.livro{
+    background: white url(imagens/background002.jpg) no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundoNegro{
+    background-color: rgba(0, 0, 0, 0.555);
+}
