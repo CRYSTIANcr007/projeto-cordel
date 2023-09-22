@@ -35,7 +35,7 @@ main p{
     padding: 15px;
     font-family: var(--fontTexto);
     margin: 15px;
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 #fundo_black{
     padding-left: 50px;
@@ -47,15 +47,18 @@ main p{
     
 }
 .joaninha{
-    background-image: url(imagens/background001.jpg);
     background: white url(imagens/background001.jpg) no-repeat center center;
     background-size: cover;
-
+    box-shadow: inset 6px 6px 13px black;
+    background-attachment: fixed;
 }
 
 .livro{
     background: white url(imagens/background002.jpg) no-repeat left center;
     background-size: auto;
+    box-shadow: inset 5px 5px 43px rgb(0, 0, 0);
+    background-attachment: fixed;
+
 }
 footer{
     background-color: black;
@@ -73,4 +76,5 @@ a{
 a:hover{
     text-decoration: underline;
     font-weight: bold;
+    text-shadow: 0px 0px 2px white;
 }
