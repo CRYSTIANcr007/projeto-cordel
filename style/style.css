@@ -55,7 +55,7 @@ main p{
 
 .livro{
     background: white url(imagens/background002.jpg) no-repeat left center;
-    background-size: auto;
+    background-size: cover;
     box-shadow: inset 5px 5px 43px rgb(0, 0, 0);
     background-attachment: fixed;
 
